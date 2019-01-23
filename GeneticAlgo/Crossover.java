@@ -23,9 +23,9 @@ public class Crossover {
 
     public Individuals crossOver(){
         if(this.needsParent()) throw new RuntimeException("Uniformselection needs more parents before cross can be executed");
-        //////////////////////////////
+        
         this.child=new Individuals();
-        //////////////////////////////
+        
 
         for(int i =0; i<this.child.getGene().length;i++)
         {
